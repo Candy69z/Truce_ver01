@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truce Café</title>
+    <!-- Link Google Font Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- Link Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- Link Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link Swiper CSS  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- Header Section Start-->
+
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/Logo.jpg" alt="">
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#services">Services</a>
+            <a href="#products">Products</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <!-- Icons -->
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>            
+            <div class="fa fa-sign-in" id="login-btn"></div>            
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+        <!-- Icons -->
+
+        <!-- Search Form -->
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+        <!-- Search Form -->
+
+        <!-- Cart Item -->
+        <div class="cart-items-container">
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span> 
+                <img src="images/Coffee-Blend.png" alt="">
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">$4.99</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span> 
+                <img src="images/Coffee-Blend.png" alt="">
+                <div class="content">
+                    <h3>cart item 02</h3>
+                    <div class="price">$9.99</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span> 
+                <img src="images/Coffee-Blend.png" alt="">
+                <div class="content">
+                    <h3>cart item 03</h3>
+                    <div class="price">$14.99</div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span> 
+                <img src="images/Coffee-Blend.png" alt="">
+                <div class="content">
+                    <h3>cart item 04</h3>
+                    <div class="price">$19.99</div>
+                </div>
+            </div>
+            
+            <a href="#" class="btn">Checkout Now</a>
+
+        </div>
+        <!-- Cart Item -->
+
+    </header>
+
+    <!-- Header Section End-->
+
+    <!-- home section start -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Truce Café</h3>
+            <h5>Let's take a pause from any <span>Trouble</span></h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore in sequi aspernatur repellendus modi molestias! Hic, reiciendis est illo natus expedita dolorum sit eligendi perspiciatis ducimus dignissimos nemo asperiores.</p>
+            <a href="#" class="btn">Read More</a>
+
+        </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- about section start -->
+    
+    <section class="about" id="about">
+
+            <h1 class="heading"><span>About</span> us</h1>
+
+            <div class="row">
+
+                <div class="image">
+                    <img src="images/AboutUs.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <h3>what is truce café?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore in sequi aspernatur repellendus modi molestias! Hic, reiciendis est illo natus expedita dolorum sit eligendi perspiciatis ducimus dignissimos nemo asperiores excepturi.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore in sequi aspernatur repellendus modi molestias! Hic, reiciendis est illo natus expedita dolorum sit eligendi perspiciatis ducimus dignissimos nemo asperiores excepturi.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+
+            </div>
+
+    </section>
+
+    <!-- about section end --> 
+
+    <!-- menu section start -->
+
+    <section class="menu" id="menu">
+
+        <h1 class="heading"> our <span>menu</span></h1>
+
+        <div class="mbox-container" reverse="true" style="
+        --width: 300px;
+        --height: 400px;
+        --quantity: 8;
+        ">
+            <div class="mlist">
+
+                <div class="mbox" style="--position: 1">
+                    <img src="images/menu1.jpg" alt="">
+                    <h3>Charcoal Latte</h3>
+                    <a href="" class="btn">see More</a>
+                </div>
+                <div class="mbox" style="--position: 2">
+                    <img src="images/menu2.jpg" alt="">
+                    <h3>Iced Chocolate</h3>
+                    <a href="" class="btn">see More</a>
+                </div>
+                <div class="mbox" style="--position: 3">
+                    <img src="images/menu3.jpg" alt="">
+                    <h3>Truce Sunlight</h3>
+                    <a href="" class="btn">see More</a>
+                </div>
+                <div class="mbox" style="--position: 4">
+                    <img src="images/menu4.jpg" alt="">
+                    <h3>Fat Boy Biscoff</h3>
+                    <a href="" class="btn">see More</a>
+                </div>
+                <div class="mbox" style="--position: 5">
+                    <img src="images/menu5.jpg" alt="">
+                    <h3>Iced Caramel Latte</h3>
+                    <a href="" class="btn">see More</a>
+                </div>
+                <div class="mbox" style="--position: 6">
+                    <img src="images/menu6.jpg" alt="">
+                    <h3>Mango Soda</h3>
+                    <a href="" class="btn">see More</a>
+                </div>
+                <div class="mbox" style="--position: 7">
+                    <img src="images/menu7.jpg" alt="">
+                    <h3>Lychee Soda</h3>
+                    <a href="" class="btn">see More</a>
+                </div>
+                <div class="mbox" style="--position: 8">
+                    <img src="images/menu8.jpg" alt="">
+                    <h3>Punchy Soda</h3>
+                    <a href="" class="btn">see More</a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="annoucement">
+            <h1>Open Daily 8:00 - 18:00</h1>
+            <p>Start your day with our Coffee</p>
+        </div>
+    </section>
+
+    <!-- menu section end -->
+    
+
+    <!-- Services section start -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading"> our <span>services</span></h1>
+        
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <img src="images/Latte Art.jpg" alt="">
+                    <h4>Coffee</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequatur aperiam accusantium maiores esse reiciendis id, quaerat sequi in accusamus aliquam adipisci, aspernatur fuga? Adipisci hic recusandae eos quisquam.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <img src="images/Matcha.jpg" alt="">
+                    <h4>Tea & Drinks</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequatur aperiam accusantium maiores esse reiciendis id, quaerat sequi in accusamus aliquam adipisci, aspernatur fuga? Adipisci hic recusandae eos quisquam.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <img src="images/croissant.jpg" alt="">
+                    <h4>Bakery</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequatur aperiam accusantium maiores esse reiciendis id, quaerat sequi in accusamus aliquam adipisci, aspernatur fuga? Adipisci hic recusandae eos quisquam.</p>
+                </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- Services section end  -->
+    
+
+
+    <!-- Product Seection Start -->
+
+    <section class="products" id="products">
+
+        <h1 class="heading"> our <span>products</span></h1>
+        
+        <div class="pbox-container" reverse="true" style="
+        --width: 300px;
+        --height: 400px;
+        --quantity: 6;
+        ">
+            <div class="plist">
+
+                <div class="pbox" style="--position: 1">
+                    <img src="images/Coffee-beans.jpg" alt="">
+                    <h3>House Blend 1</h3>
+                    <p class="product-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, soluta?</p>
+                    <a href="" class="btn">Purchase</a>
+                </div>
+                <div class="pbox" style="--position: 2">
+                    <img src="images/Coffee-beans.jpg" alt="">
+                    <h3>House Blend 2</h3>
+                    <p class="product-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, soluta?</p>
+                    <a href="" class="btn">Purchase</a>
+                </div>
+                <div class="pbox" style="--position: 3">
+                    <img src="images/Coffee-beans.jpg" alt="">
+                    <h3>House Blend 3</h3>
+                    <p class="product-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, soluta?</p>
+                    <a href="" class="btn">Purchase</a>
+                </div>
+                <div class="pbox" style="--position: 4">
+                    <img src="images/Brownies.jpg" alt="">
+                    <h3>Brownies</h3>
+                    <p class="product-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, soluta?</p>
+                    <a href="" class="btn">Purchase</a>
+                </div>
+                <div class="pbox" style="--position: 5">
+                    <img src="images/Soda.jpg" alt="">
+                    <h3>Craft Soda</h3>
+                    <p class="product-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, soluta?</p>
+                    <a href="" class="btn">Purchase</a>
+                </div>
+                <div class="pbox" style="--position: 6">
+                    <img src="images/Shirt.jpg" alt="">
+                    <h3>Shirt</h3>
+                    <p class="product-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, soluta?</p>
+                    <a href="" class="btn">Purchase</a>
+                </div>
+                
+            </div>
+
+    </section>
+
+    <!-- Product Section End -->
+
+    <!-- Blogs Section Start -->
+
+        <Section class="blogs" id="blogs">
+
+            <h1 class="heading"> our <span>blogs</span></h1>
+            <div class="blogs-box">
+            <div class="container swiper">
+                <div class="card-wrapper">
+                    <ul class="card-list swiper-wrapper">
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="images/Roast.jpg" alt="Card Image" class="card-image">
+                                <p class="badge pg1">Coffee Roast</p>
+                                <h2 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam illo voluptatibus magnam natus quos veniam vel cupiditate reiciendis asperiores.</h2>
+                                <button class="card-button
+                                material-symbols-outlined">arrow_forward</button>
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="images/Press Coffee.jpg" alt="Card Image" class="card-image">
+                                <p class="badge pg2">Pressed Coffee</p>
+                                <h2 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam illo voluptatibus magnam natus quos veniam vel cupiditate reiciendis asperiores.</h2>
+                                <button class="card-button
+                                material-symbols-outlined">arrow_forward</button>
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="images/Latte Art.jpg" alt="Card Image" class="card-image">
+                                <p class="badge pg3">Latte Art</p>
+                                <h2 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam illo voluptatibus magnam natus quos veniam vel cupiditate reiciendis asperiores.</h2>
+                                <button class="card-button
+                                material-symbols-outlined">arrow_forward</button>
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="images/FreshBeans.jpg" alt="Card Image" class="card-image">
+                                <p class="badge pg4">Fresh Beans</p>
+                                <h2 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam illo voluptatibus magnam natus quos veniam vel cupiditate reiciendis asperiores.</h2>
+                                <button class="card-button
+                                material-symbols-outlined">arrow_forward</button>
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="images/PourOver.jpg" alt="Card Image" class="card-image">
+                                <p class="badge pg5">Pour Over</p>
+                                <h2 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam illo voluptatibus magnam natus quos veniam vel cupiditate reiciendis asperiores.</h2>
+                                <button class="card-button
+                                material-symbols-outlined">arrow_forward</button>
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide">
+                            <a href="#" class="card-link">
+                                <img src="images/Espresso.jpg" alt="Card Image" class="card-image">
+                                <p class="badge pg6">Espresso</p>
+                                <h2 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam illo voluptatibus magnam natus quos veniam vel cupiditate reiciendis asperiores.</h2>
+                                <button class="card-button
+                                material-symbols-outlined">arrow_forward</button>
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide swiper-wrapper">
+                            <a href="#" class="card-link">
+                                <img src="images/Matcha.jpg" alt="Card Image" class="card-image">
+                                <p class="badge pg7">Matcha</p>
+                                <h2 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam illo voluptatibus magnam natus quos veniam vel cupiditate reiciendis asperiores.</h2>
+                                <button class="card-button
+                                material-symbols-outlined">arrow_forward</button>
+                            </a>
+                        </li>
+                        <li class="card-item swiper-slide swiper-wrapper">
+                            <a href="#" class="card-link">
+                                <img src="images/TeaField.jpg" alt="Card Image" class="card-image">
+                                <p class="badge pg8">Tea Harvesting</p>
+                                <h2 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam illo voluptatibus magnam natus quos veniam vel cupiditate reiciendis asperiores.</h2>
+                                <button class="card-button
+                                material-symbols-outlined">arrow_forward</button>
+                            </a>
+                        </li>
+        
+                    </ul>
+        
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-slide-button swiper-button-prev"></div>
+                    <div class="swiper-slide-button swiper-button-next"></div>
+                </div>
+            </div>
+            </div>
+        </Section>
+
+    <!-- Blogs Section End -->
+    
+    <!-- Contact Section Start -->
+
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"><span>Contact</span> us</h1>
+        
+        <div class="crow">
+        
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15802.722085539519!2d98.8231468!3d8.0318377!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3051c1c2a047acaf%3A0xf20b3109e0b19bb6!2sTruce%20Coffee%20Bar%2C%20Ao%20Nang!5e0!3m2!1sth!2sth!4v1727550431838!5m2!1sth!2sth" 
+            allowfullscreen="" loading="lazy"></iframe>
+
+            <form action="">
+                <h3>Get In Touch</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="name">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="text" placeholder="Phone">
+                </div>
+                <input type="submit" value="cantact now" class="btn">
+            </form>
+
+        </div>
+    </section>
+
+    <!-- Contact Section End -->
+
+    <!-- Footer Start Here-->
+
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#">
+                <i class="fab fa-instagram "></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-line"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-snapchat-ghost"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#services">Home</a>
+            </li>
+            <li>
+                <a href="#about ">About</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#products">Products</a>
+            </li>
+            <li>
+                <a href="#blogs">Blogs</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright">
+            © Aomsin Sivasin | All Rights Reserved
+        </p> 
+    </footer>
+
+
+    <!-- Footer End Here -->
+
+    <!-- Link Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Link Script -->
+    <script src="script/script.js"></script>
+
+</body>
+</html>
